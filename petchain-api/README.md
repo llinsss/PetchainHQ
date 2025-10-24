@@ -43,3 +43,11 @@ To contribute effectively, make sure to read through our Contribution Guide, whi
 Code of Conduct
 Step-by-step contribution process
 Open tasks and other ways to get involved
+
+Contact & Support
+For feedback, questions or collaboration:
+
+Contact project lead: @llins_x
+Report Issues: Submit bug reports or feature requests via GitHub Issues.
+ Star our GitHub Repository to stay updated on new features and releases.
+
