@@ -18,3 +18,11 @@ By making records tamper-proof and universally accessible, PetChain keeps vets a
 
 7. Privacy: Uses advanced cryptography (like ZKPs) to keep sensitive data secure, even on-chain.
 
+Tech Stack
+Frontend:
+Framework: Next.js (React + TypeScript)
+Styling: Tailwind CSS
+Hosting: Vercel
+Backend: NestJS, AWS, Heroku
+Database: PostgreSQL, TypeORM
+BlockChain: Cairo, StarkNetJs

@@ -1,2 +1,0 @@
-# PetchainHQ
-Codebase for petchain
