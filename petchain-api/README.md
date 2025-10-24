@@ -1,4 +1,4 @@
-PetChain is a decentralized platform on StarkNet that securely manages pet medical records. Today, health data is often scattered, lost, or stuck in outdated systems—making it hard to track vaccinations, manage treatments, or respond quickly in emergencies.
+PetChain is a decentralized platform on Base that securely manages pet medical records. Today, health data is often scattered, lost, or stuck in outdated systems—making it hard to track vaccinations, manage treatments, or respond quickly in emergencies.
 
 By making records tamper-proof and universally accessible, PetChain keeps vets and pet owners aligned—no matter where the pet is or who’s treating them. Pets get a scannable tag for quick access to key medical details. This tag can act as a tracker if pet goes missing.
 
@@ -6,7 +6,7 @@ By making records tamper-proof and universally accessible, PetChain keeps vets a
  Features
 1. Scannable Pet Tags: Each pet gets a unique QR code and tag linked to its medical history—instantly scannable by vets or emergency responders. The tag displays key info and a customizable message from the owner, doubling as a tracker if the pet goes missing.
 
-2. Always-Available Records: Medical history is stored on StarkNet, ensuring records are tamper-proof, permanent, and accessible anytime.
+2. Always-Available Records: Medical history is stored on Base, ensuring records are tamper-proof, permanent, and accessible anytime.
 
 3. Controlled Access: Pet owners control who sees what, share vaccination status publicly or give full access to a vet when needed.
 
@@ -25,4 +25,21 @@ Styling: Tailwind CSS
 Hosting: Vercel
 Backend: NestJS, AWS, Heroku
 Database: PostgreSQL, TypeORM
-BlockChain: Cairo, StarkNetJs
+BlockChain: solidity, Base
+
+Getting Started
+This repository serves as the main repo, specifically tailored for FRONTEND contributions to the PetChain project.
+
+To get this project up and running locally, ensure the following are installed on your system:
+
+Node.js (v16 or higher)
+npm or yarn
+Git
+Docker (optional, for DB or backend setup)
+
+Contributing
+To contribute effectively, make sure to read through our Contribution Guide, which outlines
+
+Code of Conduct
+Step-by-step contribution process
+Open tasks and other ways to get involved
