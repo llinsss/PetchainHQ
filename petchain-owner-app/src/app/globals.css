@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  /* Natural, earthy color palette */
+  --primary: #2d5a87;
+  --primary-light: #4a7ba7;
+  --accent: #c17817;
+  --accent-light: #d4941f;
+  --success: #2d7d32;
+  --warning: #f57c00;
+  --error: #c62828;
+  
+  /* Natural backgrounds */
+  --bg-primary: #1a1f2e;
+  --bg-secondary: #242938;
+  --bg-card: #2a2f3e;
+  --bg-elevated: #323749;
+  
+  /* Natural borders and dividers */
+  --border-primary: #3a3f4e;
+  --border-secondary: #4a4f5e;
+  
+  /* Text colors */
+  --text-primary: #f0f2f5;
+  --text-secondary: #b8bcc8;
+  --text-tertiary: #8b8f9b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-primary);
+  border-radius: 12px;
+  transition: all 0.2s ease;
+}
+
+.card:hover {
+  border-color: var(--border-secondary);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.btn-primary:hover {
+  background: var(--primary-light);
+  transform: translateY(-1px);
+}
+
+.btn-secondary {
+  background: var(--bg-elevated);
+  color: var(--text-secondary);
+  border: 1px solid var(--border-primary);
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.btn-secondary:hover {
+  background: var(--bg-card);
+  border-color: var(--border-secondary);
+  color: var(--text-primary);
+}
+
+.status-badge {
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 500;
+  border: 1px solid;
+}
+
+.status-success {
+  background: rgba(45, 125, 50, 0.15);
+  color: #66bb6a;
+  border-color: rgba(45, 125, 50, 0.3);
+}
+
+.status-warning {
+  background: rgba(245, 124, 0, 0.15);
+  color: #ffb74d;
+  border-color: rgba(245, 124, 0, 0.3);
+}
+
+.status-info {
+  background: rgba(45, 90, 135, 0.15);
+  color: #64b5f6;
+  border-color: rgba(45, 90, 135, 0.3);
+}
