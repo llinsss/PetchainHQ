@@ -34,7 +34,7 @@ export function FeatureTiles() {
         {features.map((f) => (
           <Card key={f.title} className="p-6">
             <h3>{f.title}</h3>
-            <p className="mt-2 text-sm text-ink-700">{f.desc}</p>
+            <p className="mt-2 text-sm text-gray-300">{f.desc}</p>
           </Card>
         ))}
       </div>
