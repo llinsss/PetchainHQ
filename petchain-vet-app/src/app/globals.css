@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --medical-primary: #2563eb;
+  --medical-secondary: #059669;
+  --medical-warning: #dc2626;
+  --medical-bg: #0a0f1c;
+  --medical-surface: #1a2332;
+  --medical-card: #243447;
+  --medical-border: #374151;
+  --medical-text: #f3f4f6;
+  --medical-text-secondary: #d1d5db;
+  --medical-text-tertiary: #9ca3af;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background: var(--medical-bg);
+  color: var(--medical-text);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.vet-card {
+  background: var(--medical-card);
+  border: 1px solid var(--medical-border);
+  border-radius: 12px;
+  transition: all 0.2s ease;
+}
+
+.vet-card:hover {
+  border-color: var(--medical-primary);
+  transform: translateY(-1px);
+}
+
+.btn-medical {
+  background: var(--medical-primary);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  padding: 12px 16px;
+}
+
+.btn-medical:hover {
+  background: #1d4ed8;
+}
+
+.btn-success {
+  background: var(--medical-secondary);
+  color: white;
+}
+
+.btn-success:hover {
+  background: #047857;
+}
+
+.btn-danger {
+  background: var(--medical-warning);
+  color: white;
+}
+
+.btn-danger:hover {
+  background: #b91c1c;
+}
+
+.status-critical {
+  background: rgba(220, 38, 38, 0.15);
+  color: #fca5a5;
+  border: 1px solid rgba(220, 38, 38, 0.3);
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.status-normal {
+  background: rgba(5, 150, 105, 0.15);
+  color: #6ee7b7;
+  border: 1px solid rgba(5, 150, 105, 0.3);
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.status-warning {
+  background: rgba(245, 158, 11, 0.15);
+  color: #fbbf24;
+  border: 1px solid rgba(245, 158, 11, 0.3);
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 500;
+}
